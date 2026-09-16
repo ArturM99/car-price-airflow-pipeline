@@ -6,10 +6,10 @@ from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 
 path = os.path.expanduser('~/car_price_airflow_pipeline')
-# Добавим путь к коду проекта в переменную окружения, чтобы он был доступен python-процессу
+# Add the project code path to the environment variable so it's available to the python process
 os.environ['PROJECT_PATH'] = path
 os.environ['PYTHONPATH'] = path
-# Добавим путь к коду проекта в $PATH, чтобы импортировать функции
+# Add the project code path to $PATH to import functions
 sys.path.insert(0, path)
 
 
