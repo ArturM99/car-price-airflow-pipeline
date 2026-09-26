@@ -1,4 +1,0 @@
-apache-airflow
-pandas
-scikit-learn
-dill
