@@ -4,8 +4,6 @@
 
 В отличие от [car-price-prediction](https://github.com/ArturM99/car-price-prediction) (тот же датасет, но с деплоем через FastAPI + Docker + мониторинг Grafana), здесь акцент сделан на **автоматизации ML-пайплайна**: переобучение и инференс запускаются по расписанию без участия человека.
 
-![DAG graph](Graph.png)
-![DAG run history](Grid.png)
 
 ## Структура проекта
 
