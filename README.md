@@ -4,8 +4,6 @@ A car price category prediction project orchestrated via **Apache Airflow**: the
 
 Unlike [car-price-prediction](https://github.com/ArturM99/car-price-prediction) (same dataset, but deployed via FastAPI + Docker + Grafana monitoring), this project focuses on **automating the ML pipeline**: retraining and inference run on a schedule without human involvement.
 
-![DAG graph](Graph.png)
-![DAG run history](Grid.png)
 
 ## Project structure
 
